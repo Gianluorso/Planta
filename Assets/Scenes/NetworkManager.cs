@@ -26,7 +26,7 @@ public class NetworkManager : MonoBehaviour
 
     async void ConnectToWebSocket()
     {
-        Uri serverUri = new Uri("ws://localhost:8080"); // replace with your server URI
+        Uri serverUri = new Uri("ws://planta.opentrust.it:8080"); // replace with your server URI
         CancellationToken cancellationToken = new CancellationToken();
 
         try
